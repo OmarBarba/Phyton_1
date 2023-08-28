@@ -56,7 +56,29 @@ print(colores)
 print (sorted(colores)) 
 print (colores)
 ##
-##Coontar valores de una lista 
+##Contar valores de una lista 
 print(len(paises))
 print(paises[34])
+#######################################
+###############TUPLA###################
+#######################################
+
+lista= ['rojo','azul','verrde','amarillo']
+tupla= ('rojo','azul','verrde','amarillo')
+#se hace con parentesis
+#imprimir normal llamar una especifica con corchete 
+print(tupla)
+print(tupla[2])
+
+#######operaciones con tupla 
+tupla1= (10,20,30,'este es el reusltado')
+print(tupla1[3],tupla1[1]+tupla1[0])
+#agregar dato no se puede con append 
+
+###convertir de lista a tupla
+tupla2=tuple(lista)
+print (tupla2)
+##convertir de lista a tupla 
+lista1=list(tupla2)
+print (lista)
 
