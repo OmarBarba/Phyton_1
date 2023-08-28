@@ -30,3 +30,4 @@ if dinero < 0:
 if compra ==[1] or compra==[2] or compra ==[3] or compra ==[4]:
    print("te quedan"+ str(dinero)+"pejecoins")
    print("estas listo para pelear")
+
