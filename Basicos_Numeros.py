@@ -12,3 +12,13 @@ print (suma + resta + mult + div )
 #calcular exponentes 
 elevado = 2 ** 3
 print(elevado) 
+
+#floats 
+num1 = 12.24
+num2= 43.645
+print(num1+num2)
+#limitarr los numero decimales con las funcion round 
+res= num1+num2
+res= round(res,2)
+
+print (res)
