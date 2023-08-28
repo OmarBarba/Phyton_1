@@ -1,10 +1,7 @@
-#!/usr/bin/env python
-#-*- coding: cp1252
-#-*- coding: 850 _*_
+
 #-*- coding: utf-8 -*- 
 
 #usar acentos las lineas anteriores 
-
 
 print ("hello world")
 r= "soy omar" #creacion de variable con string
