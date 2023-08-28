@@ -43,6 +43,6 @@ hyundai=  ['elantra','sonata','tucson','creta', 'i10','santa fe']
 'sonata' in hyundai #internamente muestra un true 
 print ('sonata' in hyundai)# de esta manera lo muestra 
 if entrada in hyundai: #in coteja que este a la lista
-  print("EL carro es hyundai")
+  print("Hay existencia hyundai")
 else : 
-  print("el carro no es hyundai" )
+  print("No hay exisitencia actualmente" )
