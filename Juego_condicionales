@@ -23,6 +23,8 @@ if 3 in compra:
     dinero = dinero - escudo1
 if 4 in compra:
     dinero = dinero - escudo2
+else:
+    print("Especifica un número entre 1 y 4")
 if dinero < 0:
     print("tranquilo lo has gastado todo ya o no te ajusta")
 if compra ==[1] or compra==[2] or compra ==[3] or compra ==[4]:
