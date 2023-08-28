@@ -84,3 +84,12 @@ if x < y or z > y:
 
 else:
    print("no se cumple2")
+
+
+  ######################################
+  #################pass##################
+  ######################################
+
+if x < y and z > y:
+   pass 
+#permite compilar un if vacio 
