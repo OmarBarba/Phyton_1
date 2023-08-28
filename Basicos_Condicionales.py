@@ -1,4 +1,4 @@
-##if ->booleano
+#if ->booleano
 #>mayor que <menor que  >=menor o igual <= menor o igual 
 #== igual y != diferete 
 
@@ -23,13 +23,26 @@ if edad >=18 :
 else:
  print('no puedes acceder')
 
-#valor por el usuario int(input())
+#valor por el usuario int(input()) 
 edad1= int(input('Cual es tu edad?    ...   '))
 if edad1<= 0:
    print ('Nadie puede tener esa edad')
-elif edad1 >=1 edad1 <=17:
+elif edad1 >=1 and edad1 <=17:
  print('Eres menor de edad')
-elif edad <=100:
+elif edad1 <=100:
  print('Eres mayor de edad')
 else:
   print('Edad no valida')
+  
+
+  #############################################
+  #################APLICACION##################
+  #############################################
+entrada = input("introduce el nombre de un carro hyundai: \n")
+hyundai=  ['elantra','sonata','tucson','creta', 'i10','santa fe']
+'sonata' in hyundai #internamente muestra un true 
+print ('sonata' in hyundai)# de esta manera lo muestra 
+if entrada in hyundai: #in coteja que este a la lista
+  print("EL carro es hyundai")
+else : 
+  print("el carro no es hyundai" )
