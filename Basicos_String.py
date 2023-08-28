@@ -9,10 +9,10 @@ print (r)
 
 # se peude cambiar entre tipos de valores sin tener que declararlo 
 r= 'hola' #de esta forma se declara un string o con doble comilla ""
-print(m)
+print(r)
 #concatenar strings
 #se puede de esta manera o agregando variables 
-Z= m+ ' Limón yo'+ " " + r
+Z= r+ ' Limón yo'+ " " + r
 print(Z)
 
 #metodos para los strings 
