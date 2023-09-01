@@ -81,4 +81,5 @@ print (tupla2)
 ##convertir de lista a tupla 
 lista1=list(tupla2)
 print (lista)
+print (tupla2)
 
