@@ -37,3 +37,4 @@ print("##########Split######")
 #  se cambian solo dos 
 busqueda4 = re.sub(" ", "-" , texto,2)
 print(busqueda4)
+
