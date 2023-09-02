@@ -20,6 +20,6 @@ print(res2)
 res3 = re.findall("Vamos|1|tomar", texto)
 print(res3)
 
-####buscar caracter por separado 
+####buscar caracter por separado#########
 res2 = re.findall("[a]", texto)
 print(res2)
