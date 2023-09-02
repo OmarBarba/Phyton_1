@@ -1,0 +1,25 @@
+#variables locales, globales 
+
+def funcion(val):
+    variable1 = "valor dentro de una funcion"
+    print(variable1)
+    #las variables dentro de una funcion son locales 
+    #y no se puede cambiar el valor de la variable adentro de la funcion y qye se refleje en el global 
+
+    #hacer una variable global 
+    global num
+    num = 12
+    #si cambiamos el valor de la siguiente manera si se cambia el valor de la global
+    global num2
+    num2 = 23
+
+    #fucion anidada dentro de una funcion 
+    def funcion2():
+        variable1 = "he cambiado el valor de la funcion"
+    
+#variable global
+val="hola soy global "
+
+print(val)
+funcion(val)
+print(num)
